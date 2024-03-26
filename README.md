@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/amanayak/Spotify-Clone.git">
-    <img src="/icon/user.png" alt="Logo" width="200" height="200">
+    <img src="/icon/user.png" alt="Logo" style="border-radius: 50%;" width="200" height="200">
   </a>
 
   <h3 align="center">Spotify Clone-by Aman Nayak</h3>
@@ -12,7 +12,7 @@
  <p align="center">
     Best one you'll ever find!
     <br />
-    <a href="https://spotifyclonebyrv.vercel.app"><strong>Veiw Live Project»</strong></a>
+    <a href="https://clone-spotify-a.vercel.app/"><strong>Veiw Live Project»</strong></a>
     <br />
     <br />
     <a href="https://youtube.com/@letscodeweb">Youtube</a>
