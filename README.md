@@ -7,7 +7,7 @@
     <img src="/icon/user.png" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">Spotify Clone-by Raghvendra Misra</h3>
+  <h3 align="center">Spotify Clone-by Aman Nayak</h3>
 
  <p align="center">
     Best one you'll ever find!
