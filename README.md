@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/amanayak/Spotify-Clone.git">
-    <img src="/user.png" alt="Logo" width="200" height="200">
+    <img src="/icon/user.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Spotify Clone-by Raghvendra Misra</h3>
