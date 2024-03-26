@@ -94,7 +94,7 @@ body {
   margin-top: 1vmin;
 }
 
-#searchicon:hover > #searchicon-text {
+#searchicon:hover>#searchicon-text {
   color: white;
 }
 
@@ -102,7 +102,7 @@ body {
   color: rgb(167, 166, 166);
 }
 
-#searchicon:hover > #searchicons-svg {
+#searchicon:hover>#searchicons-svg {
   color: white;
 }
 
@@ -118,11 +118,11 @@ body {
   color: rgb(167, 166, 166);
 }
 
-#libraryicon:hover > #libraryicon-text {
+#libraryicon:hover>#libraryicon-text {
   color: white;
 }
 
-#libraryicon:hover > #libraryicon-svg {
+#libraryicon:hover>#libraryicon-svg {
   color: white;
 }
 
@@ -223,11 +223,11 @@ body {
   color: white;
 }
 
-.recenticon-cont:hover > .recenticon-text {
+.recenticon-cont:hover>.recenticon-text {
   color: white;
 }
 
-.recenticon-cont:hover > #recenticon-svg {
+.recenticon-cont:hover>#recenticon-svg {
   color: white;
 }
 
@@ -1742,15 +1742,15 @@ body {
     margin-bottom: 0;
   }
 
-  .songCard:hover > .songDescriptionContbefore::after {
+  .songCard:hover>.songDescriptionContbefore::after {
     background-image: linear-gradient(to left, #333333 50%, transparent);
   }
 
-  .songCard:hover > .songDescriptionContbefore::before {
+  .songCard:hover>.songDescriptionContbefore::before {
     background-image: linear-gradient(to right, #333333 50%, transparent);
   }
 
-  .songCard:hover > .songName::after {
+  .songCard:hover>.songName::after {
     background-image: linear-gradient(to left, #333333 25%, transparent);
   }
 
@@ -1763,7 +1763,7 @@ body {
 
   .musicBar {
     display: initial;
-    width:94vw;
+    width: 94vw;
     position: static;
     border-radius: 1vh;
     backdrop-filter: blur(12px);
@@ -1912,15 +1912,18 @@ body {
     gap: 4vw;
     padding-left: 4vw;
   }
+
   .loadingElMainwindowCardCont div:nth-child(6) {
     margin-bottom: 0;
   }
+
   .loadingElMainwindowCardCont div {
     height: 50vw;
     border-radius: 4vw;
     width: 50vw;
     flex-shrink: 0;
   }
+
   .loadingElMainwindowCardCont::-webkit-scrollbar {
     display: none;
   }
@@ -1932,6 +1935,7 @@ body {
     width: 100%;
     transform: rotateZ(296deg);
   }
+
   .loadingElSidebar2::before {
     top: -51px;
     left: -90%;
@@ -1939,34 +1943,42 @@ body {
     width: 90%;
     transform: rotateZ(-66deg);
   }
-  .loadingMusicbarEl::after{
+
+  .loadingMusicbarEl::after {
     height: 49%;
     width: 213%;
     transform: rotateZ(294deg);
   }
-  .loadingElMusicbar div:nth-last-child(2)::after{
+
+  .loadingElMusicbar div:nth-last-child(2)::after {
     height: 327%;
 
   }
-  .loadingElSidebar1{
+
+  .loadingElSidebar1 {
     border-radius: 10vw;
   }
-  .loadingElSidebar2{
+
+  .loadingElSidebar2 {
     border-radius: 10vw;
   }
-  .loadingElMainwindow{
+
+  .loadingElMainwindow {
     border-radius: 10vw;
   }
-  .loadingMusicbarEl{
+
+  .loadingMusicbarEl {
     border-radius: 4vw;
-}
-#loadingMusicBar{
-  z-index:5;
-}
-.musicBar #controlicon-play{
+  }
+
+  #loadingMusicBar {
+    z-index: 5;
+  }
+
+  .musicBar #controlicon-play {
     position: relative;
-    z-index:4;
-}
+    z-index: 4;
+  }
 }
 
 /*<--Scrollbar Styling bellow-->*/
@@ -2002,4 +2014,8 @@ body {
 
 .defaultlistings:hover::-webkit-scrollbar {
   display: initial;
+}
+
+.logo-sp {
+  border-radius: 50%;
 }
