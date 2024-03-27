@@ -17,7 +17,7 @@
     <br />
     <a href="https://youtube.com/@letscodeweb">Youtube</a>
     ·
-    <a href="https://instagram.com/letscodeeweb">Telegram</a>
+    <a href="https://instagram.com/letscodeeweb">Instagram</a>
   </p>
 </div>
 
