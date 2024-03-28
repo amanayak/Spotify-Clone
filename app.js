@@ -291,7 +291,7 @@ const playlist = [
   "/audio/wohRaat.mp3",
   "/audio/thodaThodaPyaar.mp3",
   "/audio/malang.mp3",
-  "/audio/duniyaa.mp3",
+  "/audio/Duniyaa.mp3",
   "/audio/labonKo.mp3",
   "/audio/lovely.mp3",
   "/audio/stay.mp3",
