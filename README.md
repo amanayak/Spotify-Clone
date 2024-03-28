@@ -77,12 +77,14 @@ The application is planned to integrate with a typical backend soon, enabling fe
 With the vision of making it the best of all, my Spotify clone aims to offer a comprehensive music streaming experience with enhanced features and improved usability, catering to the needs of modern music enthusiasts.
 
 
+## License
+This project is licensed under the [MIT License](LICENSE).
 
 
+# CONTACT US
+- [Youtube](https://www.youtube.com/channel/UC78LjF0lONSd91BSlTVcdMw)
+- [Instagram](https://www.instagram.com/letscodeeweb/)
 
-<br></br>
-## Contact
 
-Your Name - [@Amanayak](https://instagram.com/letscodeeweb) 
 
 
