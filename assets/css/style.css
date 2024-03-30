@@ -457,6 +457,7 @@ form {
 
 .mainwindow {
   background: linear-gradient(to top, rgba(18, 18, 18, 1) 40%, rgb(32, 32, 32));
+
   margin-top: 1vh;
   height: 99vh;
   border-top-left-radius: 1.5vmin;
@@ -472,13 +473,6 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
 }
 
 #bell-icon {
@@ -530,7 +524,7 @@ nav img {
 .alltag,
 .playlisttag {
   color: white;
-  font-size: 15px;
+  font-size: 2vmin;
   font-weight: 600;
   background-color: #12121262;
   padding: 0.7vmin 2vmin;
@@ -559,18 +553,8 @@ nav img {
 .tagcontainer2 {
   display: flex;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 4vmin;
   gap: 1vmin;
-  margin-top: -10px;
-}
-
-.tagcontainer2 img {
-  width: 40px;
-  height: 40px;
-  border: 0;
-  outline: 0;
-  border-radius: 50%;
-  margin-right: 4px;
 }
 
 #libraryicon {
@@ -633,45 +617,37 @@ nav img {
 
 .uppersection1-mainwindow {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1vw;
   padding: 3vmin 3.5vmin;
-  margin-bottom: -30px;
+  padding-bottom: 0;
 }
 
 .uppersection2-mainwindow {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1vw;
   padding: 3vmin 3.5vmin;
-}
-
-.uppersection3-mainwindow {
-  display: flex;
-  justify-content: space-between;
-  gap: 1vw;
-  padding: 3vmin 3.5vmin;
-  margin-bottom: -30px;
+  padding-top: 1vmin;
 }
 
 .uppercard {
-  width: 100%;
-  height: 50px;
+  height: 3vw;
+  width: 33%;
   background-color: #ffffff18;
   border-radius: 0.3vw;
-  margin-bottom: 10px;
   overflow: hidden;
   color: white;
   display: flex;
   align-items: center;
-  font-weight: 500;
+  gap: 0.5vw;
+  font-weight: 700;
   cursor: pointer;
   position: relative;
 }
 
 .main-window-playlist-thumb {
-  height: 50px;
-  margin-right: 10px;
+  height: 3vw;
 }
 
 #playicon {
@@ -696,7 +672,7 @@ nav img {
 }
 
 .uppercard {
-  font-size: 15px;
+  font-size: 0.8vw;
 }
 
 .uppercard:hover #playicon {
@@ -749,7 +725,6 @@ nav img {
 
 .mainNav {
   width: 100%;
-  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1603,14 +1578,10 @@ body {
 
   .sidebar {
     display: none;
-    width: 100%;
   }
 
-
-  .mainNav {
-    height: 200px;
-    top: -24px;
-    z-index: 2;
+  nav {
+    display: none;
   }
 
   .tagcontainer {
@@ -1618,12 +1589,20 @@ body {
   }
 
   .tagcontainer2 {
-    margin-top: -140px;
+    display: none;
   }
 
-  /* .mainNav {
+  .uppersection1-mainwindow {
     display: none;
-  } */
+  }
+
+  .uppersection2-mainwindow {
+    display: none;
+  }
+
+  .mainNav {
+    display: none;
+  }
 
   .musicBar {
     display: none;
@@ -2000,131 +1979,43 @@ body {
     position: relative;
     z-index: 4;
   }
-
-  .uppersection1-mainwindow,
-  .uppersection2-mainwindow,
-  .uppersection3-mainwindow {
-    gap: 4;
-    font-size: 10;
-    margin-bottom: -130px;
-  }
-
-  .uppersection1-mainwindow .uppercard #playicon,
-  .uppersection2-mainwindow .uppercard #playicon,
-  .uppersection3-mainwindow .uppercard #playicon {
-    font-size: 30px;
-  }
-
-  /*<--Scrollbar Styling bellow-->*/
-
-  ::-webkit-scrollbar {
-    width: 10px;
-
-    position: absolute;
-    z-index: 4;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: #f1f1f100;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #8888884b;
-
-    border-radius: 6px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #15ff5b;
-  }
-
-  .defaultlistings::-webkit-scrollbar {
-    width: 10px;
-
-    display: none;
-    position: absolute;
-    z-index: 4;
-  }
-
-  .defaultlistings:hover::-webkit-scrollbar {
-    display: initial;
-  }
-
-  .logo-sp {
-    border-radius: 50%;
-  }
-
-  .nav {
-    display: block;
-    width: 100%;
-    align-items: start;
-    justify-content: start;
-    margin: 0;
-  }
-
-  .nav {
-    margin-bottom: 20px;
-  }
-
-  .nav-one,
-  .nav-two {
-    margin-bottom: 25px;
-  }
-
-  .nav-two span {
-    font-size: 20px;
-  }
-
-  .nav-two #bell-icon:first-child {
-    margin: 0;
-  }
-
-  .nav-two img {
-    display: none;
-  }
-
-  .tagcontainer2 {
-    margin-bottom: 20px;
-  }
 }
 
-@media (max-width: 550px) {
+/*<--Scrollbar Styling bellow-->*/
 
-  .uppersection1-mainwindow,
-  .uppersection3-mainwindow {
-    margin-bottom: -110px;
-  }
+::-webkit-scrollbar {
+  width: 10px;
 
-  .mainNav {
-    height: 160px;
-    top: -10.9px;
-    z-index: 2;
-  }
-
-  .tagcontainer2 {
-    margin-top: -155px;
-  }
-
-  .uppercard {
-    font-size: 15px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .nav-one span,
-  .nav-two span,
-  .nav-two span {
-    font-size: 30px;
-  }
+  position: absolute;
+  z-index: 4;
 }
 
-@media (max-width: 350px) {
-  .mainNav {
-    display: none;
-  }
+::-webkit-scrollbar-track {
+  background-color: #f1f1f100;
+}
 
-  .nav .nav-one,
-  .nav .nav-two {
-    display: none;
-  }
+::-webkit-scrollbar-thumb {
+  background-color: #8888884b;
+
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #15ff5b;
+}
+
+.defaultlistings::-webkit-scrollbar {
+  width: 10px;
+
+  display: none;
+  position: absolute;
+  z-index: 4;
+}
+
+.defaultlistings:hover::-webkit-scrollbar {
+  display: initial;
+}
+
+.logo-sp {
+  border-radius: 50%;
 }
