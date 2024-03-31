@@ -3,9 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/amanayak/Spotify-Clone.git"  >
-    <img src="/assets/icon/user.png" alt="Logo" width="200"height="200" style="border-radius: 50%;">
-  </a>
+    <img src="/assets/icon/user.png" alt="Logo" width="200"height="200">
 
   <h3 align="center">Spotify Clone-by Aman Nayak</h3>
 
