@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="/assets/icon/user.png" alt="Logo" width="200"height="200">
+    <img src="/icon/user.png" alt="Logo" width="200"height="200">
 
   <h3 align="center">Spotify Clone-by Aman Nayak</h3>
 
