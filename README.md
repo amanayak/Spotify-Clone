@@ -7,6 +7,8 @@
 
   <h3 align="center">Spotify Clone-by Aman Nayak</h3>
 
+
+
  <p align="center">
     Best one you'll ever find!
     <br />
@@ -19,6 +21,9 @@
   </p>
 </div>
 
+
+<img src="/icon/screenshot1.png">
+<img src="/icon/screenshot2.png">
 <br>
 <br>
 
