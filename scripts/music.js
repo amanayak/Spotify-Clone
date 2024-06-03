@@ -771,7 +771,7 @@ window.addEventListener("resize", () => {
 
 if (!isMusicBarOpened) {
   document.querySelector("#followme").addEventListener("click", () => {
-    window.open("https://www.instagram.com/__raghvendra__001/");
+    window.open("https://www.instagram.com/amanayak_/");
   });
 }
 
