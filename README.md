@@ -17,7 +17,6 @@
     <br />
     <a href="https://youtube.com/@letscodeweb">Youtube</a>
     ·
-    <a href="https://instagram.com/letscodeeweb">Instagram</a>
   </p>
 </div>
 
@@ -82,7 +81,6 @@ With the vision of making it the best of all, my Spotify clone aims to offer a c
 
 # CONTACT US
 - [Youtube](https://www.youtube.com/channel/UC78LjF0lONSd91BSlTVcdMw)
-- [Instagram](https://www.instagram.com/letscodeeweb/)
 
 
 
